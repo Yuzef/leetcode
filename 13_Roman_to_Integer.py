@@ -1,4 +1,7 @@
 class Solution:
+    def __init__(self):
+        pass
+
     def romanToInt(self, s: str) -> int:
         # largest to smallest -> add them up
         # smallest before larger -> substract smaller
@@ -20,7 +23,7 @@ class Solution:
 
         return res
 
-
+print(Solution().romanToInt(s='MCMXCIV'))
 
 
 
